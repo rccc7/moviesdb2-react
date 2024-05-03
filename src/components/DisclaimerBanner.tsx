@@ -12,7 +12,7 @@ function DisclaimerBanner() {
     >
       <h1 className="text-sm">
         <span className="font-bold">IMPORTANT NOTICE:</span> This is a personal
-        project app with the main purpose to demonstrate the React.js
+        project app with the main purpose of demonstrating the React.js
         capabilities with Nextjs features. This product uses the TMDB API but is
         not endorsed or certified by TMDB. Movie billboards and movie
         descriptions are retrieved directly using the free TMDB API:{" "}
