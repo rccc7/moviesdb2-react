@@ -1,12 +1,19 @@
 Movies Database V2 app
 Movies Database app that lists the latest upcoming, top rated, and popular movies with a UI similar to Netflix or Disney+ but with its original touch. The movie posters, thumbnails, and descriptions are dynamically retrieved from TMDB through its [API](https://www.themoviedb.org/documentation/api) and Vercel's [SWR react hooks for data fetching](https://swr.vercel.app/).
+
+See it in action at: [https://movies-db2.web.app/](https://moviesdb2-react.vercel.app/)
+
+## Screenshots:
+<div align="center">
+  <img src="screenshots/MoviesDB2-react.jpg" alt="screenshot" width="700" style="width:700px;"/>
+</div>
 ## Features.
 - Carousel Banner at the top of the main page that displays the upcoming movies and loops automatically.
 - Three Horizontal Carousels that list the upcoming, top-rated, and popular movies.
 - Users can switch between Dark & Light themes. Default, the system's theme.
 - Option to list the movies from a particular genre which is selected from a list of available genres such as action, adventure, etc.
-- Basic search functionality to look for a particular movie. The results of the search are cached for 24 hours taking advantage of [Nextjs's revalidating and caching functionality](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching-caching-and-revalidating).
-- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+- Basic search functionality. The results of the search are cached for 24 hours taking advantage of [Nextjs's revalidating and caching functionality](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching-caching-and-revalidating).
+
 
 ## Getting Started
 
