@@ -1,12 +1,13 @@
 Movies Database V2 app
 Movies Database app that lists the latest upcoming, top rated, and popular movies with a UI similar to Netflix or Disney+ but with its original touch. The movie posters, thumbnails, and descriptions are dynamically retrieved from TMDB through its [API](https://www.themoviedb.org/documentation/api) and Vercel's [SWR react hooks for data fetching](https://swr.vercel.app/).
 
-See it in action at: [https://movies-db2.web.app/](https://moviesdb2-react.vercel.app/)
+Try it out: [https://movies-db2.web.app/](https://moviesdb2-react.vercel.app/)
 
 ## Screenshots:
 <div align="center">
   <img src="screenshots/MoviesDB2-react.jpg" alt="screenshot" width="700" style="width:700px;"/>
 </div>
+
 ## Features.
 - Carousel Banner at the top of the main page that displays the upcoming movies and loops automatically.
 - Three Horizontal Carousels that list the upcoming, top-rated, and popular movies.
@@ -14,6 +15,20 @@ See it in action at: [https://movies-db2.web.app/](https://moviesdb2-react.verce
 - Option to list the movies from a particular genre which is selected from a list of available genres such as action, adventure, etc.
 - Basic search functionality. The results of the search are cached for 24 hours taking advantage of [Nextjs's revalidating and caching functionality](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching-caching-and-revalidating).
 
+## Technologies
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template as well as the following components, services & dependencies:
+- [Material UI V4](https://v4.mui.com/).
+- [Material UI Icons](https://v4.mui.com/components/material-icons/#material-icons).
+- [TMDB API](https://www.themoviedb.org/documentation/api) to retrieve the movies list and thumbnails.
+- [SWR](https://github.com/axios/axios) react hooks for data fetching.
+- [movie-trailer](https://www.npmjs.com/package/movie-trailer) to obtain YouTube movie IDs from a given movie name.
+- [react-youtube](https://www.npmjs.com/package/react-youtube) component to play YouTube videos.
+- [Firebase](https://firebase.google.com/) for hosting and  authentication.
+
+## Disclaimer
+
+This application was developed with the purpose of making a UI similar to Netflix by implementing ReactJs components, Redux, Firebase, as well as other react hooks and components. The movie posters, thumbnails, and descriptions are dynamically retrieved from TMDB through its API and react-axios component.
 
 ## Getting Started
 
