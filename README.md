@@ -24,7 +24,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - [Embla Carousel](https://www.embla-carousel.com/get-started/react/) for React.
 - [ShaCDN/UI](https://ui.shadcn.com/) react component library: Button, Dark mode theme, Dropdown menu, Input.
 - [Vercel](https://vercel.com), to deploy the app.
-- Optionally (but not functional at the moment because the OpenAI free account is expired), there is a module implemented with Azure functions and OpenAI's ChatGPT to get AI suggestions based on the search terms the user enters in the input component.
+- Optionally (but not functional at the moment because the OpenAI free account is expired), there is a module implemented with Azure functions and OpenAI's ChatGPT to get AI suggestions based on the search terms the user enters in the input component. The only thing required to enable this module is to configure and set the AZURE_FUNCTION_URL environment variable after setting up the Azure function and deploying to Azure with a current ChatGPT account.
 
 ## Disclaimer
 
